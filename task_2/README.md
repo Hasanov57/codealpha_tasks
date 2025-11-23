@@ -1,4 +1,4 @@
-Task 2: Exploratory Data Analysis (EDA)
+## Task 2: Exploratory Data Analysis (EDA)
 
 ## 📋 Project Overview
 A comprehensive data analysis project exploring patterns, trends, and insights from a bookstore dataset containing 1,000+ books across multiple categories. This project demonstrates end-to-end data analysis capabilities from data cleaning to statistical testing and business intelligence storytelling.
