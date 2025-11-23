@@ -1,0 +1,13 @@
+Let's test the hypothesis about Price vs. Category. The table below groups a selection of categories and calculates their average price, clearly showing the trend.
+
+Average Price by Book Category (Selected Examples)
+
+Category	Average Price ($)	Sample Book Count
+Science	46.76	5
+Philosophy	43.49	                4
+History	38.12	10
+Fiction	37.45	15
+Mystery	35.21	10
+Young Adult	33.18	                15
+Childrens	29.54	                10
+This is a sample for demonstration. A full analysis would include all categories.

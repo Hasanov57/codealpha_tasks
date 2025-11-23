@@ -1,0 +1,11 @@
+Trend/Pattern (Rating): The concentration of high ratings (4 and 5) is a clear pattern. It suggests that this is not a random sample of all books but likely a curated list or best-sellers.
+
+Pattern (Price by Category): As hypothesized, technical or niche categories (Science, Health) command higher prices than mass-market entertainment categories (Childrens, Humor).
+
+Anomaly (Category Labeling): There is an inconsistency in the Category column. Many books are labeled "Default" and "Add a comment". This is a significant data quality issue.
+
+"Default" likely means a category was not assigned and a system default was used.
+
+"Add a comment" is clearly an error or a placeholder from the data scraping process.
+
+These entries need to be handled (e.g., filtered out or recategorized) for any accurate category-based analysis.

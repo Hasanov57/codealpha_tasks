@@ -1,0 +1,36 @@
+1. What is the overall distribution of book ratings? Are most books highly rated?
+
+Answer: The ratings are heavily skewed towards the higher end.
+
+A vast majority of books have a rating of 4 or 5.
+
+There are very few books with a rating of 1 or 2.
+
+This could indicate a selection bias (only highly-rated books are listed), review inflation, or that the scale is not used critically.
+
+2. Which book categories (genres) are the most and least expensive on average?
+
+Answer: There is significant price variation between categories.
+
+Most Expensive Categories (Examples): Science, Health, and Philosophy often contain books with higher average prices (often above $45).
+
+Least Expensive Categories (Examples): Humor, Childrens, and Young Adult tend to have lower average prices (often dipping below $30).
+
+This likely reflects the target audience, production costs (e.g., color illustrations vs. plain text), and the perceived market value of the content.
+
+3. Is there a correlation between a book's price and its rating?
+
+Answer: Based on a initial scan, there is no strong, obvious correlation. Expensive books can have low ratings (e.g., "The Electric Pencil" at $56.06 has a 1-star rating) and inexpensive books can have perfect ratings (e.g., "An Abundance of Katherines" at $10.00 has a 5-star rating). A more precise statistical analysis (like calculating a correlation coefficient) would be needed to confirm this definitively.
+
+4. Which categories have the highest and lowest number of books in stock?
+
+Answer: This dataset appears to be a snapshot where every single book is "In stock". Therefore, this question cannot be answered meaningfully from this data. The Stock column shows no variation.
+
+5. What are the most common categories in the dataset?
+
+Answer: The dataset features a wide variety of categories, but some appear more frequently than others.
+
+Common Categories: Fiction, Nonfiction, Young Adult, Fantasy, and Sequential Art (a term for graphic novels/comics) are very well represented.
+
+Less Common Categories: Erotica, Cultural, Academic, Novels (as a distinct category) appear only a handful of times.
+

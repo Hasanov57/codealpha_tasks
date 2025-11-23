@@ -1,0 +1,11 @@
+Title (String): The name of the book.
+
+Price (Float): The cost of the book. We assume it's in a single currency (e.g., USD).
+
+Stock (String): Availability. As noted, every entry is "In stock".
+
+Rating (from 5) (Integer): A numerical rating from 1 to 5.
+
+Category (String): The genre or classification of the book.
+
+Link (String): The URL to the book's page.
