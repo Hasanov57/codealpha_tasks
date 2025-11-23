@@ -7,10 +7,8 @@ BASE_URL = "http://books.toscrape.com/catalogue/page-{}.html"
 START_URL = "http://books.toscrape.com/catalogue/page-1.html"
 OUTPUT_FILE = "books.csv"
 
-# Columns: title, price, stock, rating, category, link
 all_books = []
 
-# Mapping rating text to numbers
 RATING_MAP = {
     "One": 1,
     "Two": 2,
@@ -32,7 +30,7 @@ while True:
     books = soup.select("article.product_pod")
 
     if not books:
-        break  # no more books
+        break  
 
     for book in books:
         title_el = book.select_one("h3 a")
@@ -49,7 +47,6 @@ while True:
         rating_class = book.select_one("p.star-rating")["class"][1] if book.select_one("p.star-rating") else ""
         rating = RATING_MAP.get(rating_class, 0)
 
-        # Category requires fetching the book page
         category = ""
         try:
             book_page = requests.get(link)
@@ -70,9 +67,8 @@ while True:
         })
 
     page += 1
-    time.sleep(1)  # polite delay
+    time.sleep(1)  
 
-# Save CSV
 keys = ["title", "price", "stock", "rating", "category", "link"]
 with open(OUTPUT_FILE, "w", newline="", encoding="utf-8") as f:
     writer = csv.DictWriter(f, fieldnames=keys)
@@ -81,3 +77,4 @@ with open(OUTPUT_FILE, "w", newline="", encoding="utf-8") as f:
         writer.writerow(book)
 
 print(f"Scraped {len(all_books)} books and saved to {OUTPUT_FILE}")
+
